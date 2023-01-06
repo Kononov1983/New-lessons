@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    /* background-image: url(https://klike.net/uploads/posts/2019-07/1562915050_4.jpeg); */
+    background-image: url(1.jpg);
+    background-size: 50px 50px;
+    background-repeat: repeat;
+    background-position: 50px 50px;
+    border-radius: 5px 10px 15px 20px;
+    /* background-color: yellowgreen;
+    border: 5px red;
+    border-style: solid dashed dotted double;
+    border-color: red green blue violet; */
+
+    /*border-top-color: magenta;
+    border-top-width: 5px;
+    border-top-style: solid;
+
+    /* border: 5px solid #ff0000;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ff0000; */
+    /* комментарии */
+
+    /* border-top: 5px solid magenta;
+    border-bottom: 2px solid yellow; */
+
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lime;
+}
+
+.article-img {
+    float: left;
+}

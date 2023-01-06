@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    ;
+}
+
+/* .header {
+    height: 80px;
+    background: lime;
+}
+
+.content {
+    min-height: calc(100vh - 480px);
+}
+
+.footer {
+    height: 400px;
+    background: rgba(0, 0, 0, 0.24);
+} */
+
+/* .element {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.ellipse {
+    width: 100px;
+    height: 70px;
+    border-radius: 50%;
+    background: red;
+}
+
+.container-green > .element, .container-green > .ellipse {
+    background: green;
+} */
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
+
+/* .square + .circle {
+    background: magenta;
+} */
+
+.square ~ .circle {
+    background: magenta;
+}

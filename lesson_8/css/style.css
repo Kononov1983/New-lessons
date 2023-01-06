@@ -1,0 +1,47 @@
+body {
+    background-color: #d8a8ff;
+}
+
+/* input {
+    border-bottom: 2px;
+}
+
+button {
+    background-color: blue;
+}
+
+div {
+    color: #00ff00;
+}
+
+.red-color {
+    color: red;
+}
+
+#someID {
+    color: #0000ff;
+} */
+
+.form-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffff00;
+    font-family: sans-serif;
+}
+
+h1.form-title {
+    text-align: center;
+}
+
+input,
+button {
+    display: block;
+}
+.form-inner-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}

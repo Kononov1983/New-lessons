@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 200vh;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    background: red;
+    position: relative;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+}
+
+.square-1 {
+    position: absolute;
+    background: green;
+    z-index: 2;
+    left: 50%;
+    top: 50%;
+}
+
+.square-2 {
+    position: fixed;
+    background: blue;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+}
+
+.text {
+    position: relative;
+    z-index: 3;
+}

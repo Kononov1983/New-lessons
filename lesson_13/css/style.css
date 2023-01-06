@@ -1,0 +1,8 @@
+.common-section__paragraph {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.common-section__paragraph_green {
+    color: green;
+}
