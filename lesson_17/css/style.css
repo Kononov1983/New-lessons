@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: 2s background-color, 2s transform, 2s border-radius;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* .box:hover {
+    background: blue;
+    border-radius: 20px;
+    transform: translate3d(50%, 50%, 0) rotate(90deg);
+} */
+/* 
+.box:active {
+    background: blue;
+    border-radius: 20px;
+    transform: rotate(90deg);
+} */
+
+/* .box:focus {
+    background: blue;
+    border-radius: 20px;
+    transform: rotate(90deg);
+}
+
+.button {
+    position: relative;
+    top: 0;
+    left: 0;
+    transition: 10s left, 10s top;
+}
+
+.button:focus {
+    outline: none;
+    background: red;
+    left: 400px;
+    top: 400px;
+}
+
+.link:visited {
+    color: orange;
+} */
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.box:first-child {
+    background: blue;
+
+}
+
+.box:last-child {
+    background: blue;
+}
+
+.box:nth-child(3) {
+    background: blue;
+}
+
+.box:nth-last-child(4) {
+    background: blue;
+}
+
+.box:nth-last-child(2n + 1) {
+    background: blue;
+}
+
+.box:nth-of-type(1) {
+    background: green;
+}
+
+.box:empty {
+    background: black;
+}

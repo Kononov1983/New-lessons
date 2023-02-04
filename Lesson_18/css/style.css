@@ -1,0 +1,71 @@
+/* :root {
+    --coef: calc(100vw / 1440);
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Использование коэффициента */
+
+/* .box {
+    width: calc(100 * var(--coef));
+    height: calc(100 * var(--coef));
+    background: red;
+}
+
+@media screen and (max-width: 768px) {
+    
+    :root {
+        --coef: calc(100vw / 768); 
+    }   
+} */
+
+.container {
+    display: flex;
+    row-gap: 10px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px; */
+}
+/* 
+.box {
+    height: 100px;
+    background: red;
+    border: 1px solid black;
+}
+
+.box:nth-child(1) {
+    flex: 4;
+}
+
+.box:nth-child(2) {
+    flex: 1;
+}
+
+.box:nth-child(3) {
+    flex: 4;
+}
+
+.box:nth-child(4) {
+    flex: 1;
+} */
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 1px solid black;
+}

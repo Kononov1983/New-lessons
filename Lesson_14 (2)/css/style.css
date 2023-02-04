@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    width: 50%;
+    height: 200px;
+    max-height: 50vr;
+    background: red;
+}
+
+/* 320
+480
+720
+960
+1024
+1280
+1440
+1920
+2560 */

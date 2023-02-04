@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* font-size: 25px; */
+}
+
+/* html {
+    font-size: 30px;
+} */
+    /* height: 100vh;
+    width: 50%;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.box-percentage {
+    width: 50%;
+    height: 50%;
+    background: lime;
+} */
+/* 
+.container {
+    font-size: 30px;
+}
+
+.box {
+    width: 3em;
+    height: 3em;
+    background: red;
+} */
+
+/* .container {
+    font-size: 20px;
+}
+
+.box {
+    width: 3rem;
+    height: 3rem;
+    background: red;
+} */
+
+.box {
+    /* макет 1440px, размер шрифта 24px */
+    /* font-size: calc(24/1440*100vw); */
+    /* width: 50vmin;
+    height: 200px;
+    background: red; */
+    width: 50%;
+    max-width: 800px;
+    height: 50vh;
+    max-height: 400px;
+    background: red;
+} 
+
+/* .box-2 {
+    width: 50%;
+    height: 200px;
+    background: lime;
+} */

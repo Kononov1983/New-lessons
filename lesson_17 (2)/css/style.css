@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+/* a::before {
+    content: '+7';
+}
+
+.phone-input::before {
+    content: '+7';
+}
+
+.phone-input::after {
+    content: '+7';
+} */
+
+.input-container {
+    position: relative;
+}
+
+.input-container label {
+    padding-left: 20px;
+}
+
+.input-container input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.input-container label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+} 
+
+.input-container input:checked + label::after {
+    opacity: 1;
+}
+
+.input-container label::after {
+    content: '';
+    background: url(img/check.png);
+    background-size: 100% 100%;
+    z-index: 3333;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 1px;
+    top: -1px;
+    opacity: 0;
+    transition: .2 opacity;
+}
+
+.text::first-line {
+    color: red;
+}
+
+.text::first-letter {
+    color: green;
+    font-size: 25px;
+}
+
+.text::selection {
+    background: darkblue;
+    color: white;
+}

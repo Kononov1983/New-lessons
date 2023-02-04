@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background: #1B2473;
+    margin-top: calc(48 / 1440 * 100vw);
+    height: calc(737 / 1440 * 100vw);
+    width: calc(1440 / 1440 * 100vw);
+}
+
+.container__entry-form {
+    position: absolute;
+    top: calc(132 / 1440 * 100vw);
+    left: calc(412 / 1440 * 100vw);
+    width: calc(600 / 1440 * 100vw);
+    height: calc(412 / 1440 * 100vw);
+    background: white;
+}
+
+.container__entry-form-heading {
+    position: absolute;
+    top: calc(26 / 1440 * 100vw);
+    left: calc(242 / 1440 * 100vw);
+    width: calc(115 / 1440 * 100vw);
+    height: calc(50 / 1440 * 100vw);
+    background: white;
+    color: gray;
+    font-size: calc(50 / 1440 * 100vw);
+    margin: 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(555 / 1440 * 100vw);
+    padding-left: calc(45 / 1440 * 100vw);
+    padding-top: calc(112 / 1440 * 100vw);
+}
+
+.form__input {
+    width: calc(510 / 1440 * 100vw);
+    height: calc(49 / 1440 * 100vw);
+}
+
+.form__input-password {
+    width: calc(510 / 1440 * 100vw);
+    height: calc(49 / 1440 * 100vw);
+    margin-top: calc(32 / 1440 * 100vw);
+}
+
+.form__checkbox {
+    width: calc(510 / 1440 * 100vw);
+    height: calc(24 / 1440 * 100vw);
+    margin-top: calc(16 / 1440 * 100vw);
+    font-size: calc(16 / 1440 * 100vw);
+}
+
+.form__button {
+    width: calc(180 / 1440 * 100vw);
+    height: calc(52 / 1440 * 100vw);
+    background: #1A226B;
+    color: white;
+    margin-left: calc(180 / 1440 * 100vw);
+    margin-top: calc(33 / 1440 * 100vw);
+    font-size: calc(24 / 1440 * 100vw);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        margin-top: calc(48 / 768 * 100vw);
+        height: calc(737 / 768 * 100vw);
+        width: calc(768 / 768 * 100vw);
+    }
+
+    .container__entry-form {
+        position: absolute;
+        top: calc(68 / 768 * 100vw);
+        left: calc(20 / 768 * 100vw);
+        width: calc(728 / 768 * 100vw);
+        height: calc(697 / 768 * 100vw);
+        background: white;
+    }
+
+    .container__entry-form-heading {
+        position: absolute;
+        top: calc(38 / 768 * 100vw);
+        left: calc(288 / 768 * 100vw);
+        width: calc(138 / 768 * 100vw);
+        height: calc(50 / 768 * 100vw);
+        background: white;
+        color: gray;
+        font-size: calc(60 / 768 * 100vw);
+        margin: 0;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        max-width: calc(555 / 768 * 100vw);
+        padding-left: calc(45 / 768 * 100vw);
+        padding-top: calc(112 / 768 * 100vw);
+    }
+    
+    .form__input {
+        width: calc(510 / 768 * 100vw);
+        height: calc(49 / 768 * 100vw);
+    }
+    
+    .form__input-password {
+        width: calc(510 / 768 * 100vw);
+        height: calc(49 / 768 * 100vw);
+        margin-top: calc(32 / 768 * 100vw);
+    }
+    
+    .form__checkbox {
+        width: calc(510 / 768 * 100vw);
+        height: calc(24 / 768 * 100vw);
+        margin-top: calc(16 / 768 * 100vw);
+        font-size: calc(16 / 768 * 100vw);
+    }
+    
+    .form__button {
+        width: calc(180 / 768 * 100vw);
+        height: calc(52 / 768 * 100vw);
+        background: #1A226B;
+        color: white;
+        margin-left: calc(180 / 768 * 100vw);
+        margin-top: calc(33 / 768 * 100vw);
+        font-size: calc(24 / 768 * 100vw);
+    }
+}
