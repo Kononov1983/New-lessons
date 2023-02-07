@@ -39,7 +39,7 @@ body {
 }
 
 .form__input {
-    width: calc(1200 / 1440 * 100vw);
+    width: calc(1290 / 1440 * 100vw);
     height: calc(49 / 1440 * 100vw);
     font-family: 'Roboto-Regular', sans-serif;
     font-size: calc(43 / 1440 * 100vw);
